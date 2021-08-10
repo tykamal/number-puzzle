@@ -1,7 +1,14 @@
 {
-  "name": "number-puzzle",
+  "name": "Simple ReactJS Number Puzzle",
+  "description":"A simple puzzle game to demonstrate ReactJS State Hook",
+  "keywords": "ReactJS, React Hooks, JavaScript",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+      "name": "Saad Wambangulu",
+      "email": "saad.ramadhani@gmail.com",
+      "url": "https://www.grumetimedia.co.tz"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -34,5 +41,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "license": "MIT"
 }

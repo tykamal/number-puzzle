@@ -1,38 +1,89 @@
 .App {
   text-align: center;
+  font-family: system-ui;
+  color: #fff;
+}
+.body {
+  background: #f06d06;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.board {
+  position: relative;
+  width: 223px;
+  margin: auto;
+  top: 2em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.piece {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  padding: 0px;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 30px;
+  float: left;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pos0 {
+  top: 0px;
+  left: 0px;
 }
-
-.App-link {
-  color: #61dafb;
+.pos1 {
+  top: 0px;
+  left: 66px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pos2 {
+  top: 0px;
+  left: 132px;
+}
+.pos3 {
+  top: 66px;
+  left: 0px;
+}
+.pos4 {
+  top: 66px;
+  left: 66px;
+}
+.pos5 {
+  top: 66px;
+  left: 132px;
+}
+.pos6 {
+  top: 132px;
+  left: 0px;
+}
+.pos7 {
+  top: 132px;
+  left: 66px;
+}
+.pos8 {
+  top: 132px;
+  left: 132px;
+}
+.display {
+  top: 215px;
+  position: absolute;
+}
+.won {
+  top: 70px;
+  padding: 5px;
+  left: 5px;
+  font-size: 3rem;
+  border: 2px solid #999;
+  box-shadow: 8px 8px 5px #444;
+  color: black;
+  background-color: white;
+  position: absolute;
+}
+.shuffle {
+  top: 245px;
+  position: absolute;
+  font-size: 2rem;
+}
+.play {
+  top: 245px;
+  left: 70px;
+  position: absolute;
+  font-size: 2rem;
 }
